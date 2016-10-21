@@ -1,0 +1,56 @@
+x=gets.to_i
+y=gets.to_i
+z=gets.to_i
+
+if x < 0
+	puts "A"
+elsif y > 0 && z>0
+	puts "B"
+elsif y > 0 && z<0
+	puts "C"
+elsif y < 0 && z>0
+ 	puts "D"
+elsif y < 0 && z<0
+	puts "E"
+end
+# your code goes here
+
+
+x=gets.to_i
+y=gets.to_i
+z=gets.to_i
+
+if x < y
+	if y < z
+		puts "z=#{z}"
+	else
+		puts "y=#{y}"
+	end
+elsif x < z
+	puts "z=#{z}"
+else
+	puts "x=#{x}"
+end
+# your code goes here
+
+x=gets.to_i
+y=gets.to_i
+z=gets.to_i
+
+if x < y
+	if y < z
+		puts "#{z},#{y},#{x}"
+	elsif x>z
+		puts "#{y},#{x},#{z}"
+	else	
+		puts "#{y},#{z},#{x}"
+	end
+elsif x < z
+	puts "#{z},#{x},#{y}"
+elsif z > y
+	puts "#{x},#{z},#{y}"
+else
+	puts "#{x},#{y},#{z}"
+end
+# your code goes here
+

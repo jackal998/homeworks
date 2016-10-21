@@ -1,0 +1,29 @@
+＃javascript 只有浮點數
+
+浮點數：
+「正＼負」＊「2^n」＊「數值」。
+所以當二進位制表達不出來的數字就會出錯，ex：0.1 + 0.2 != 0.3。
+
+整數：
+由127 ~ -128組成，直接利用二進制表示整數。
+
+＃除了Primitive Data Type以外的都是Reference/Object Data Types 複合資料類型。
+
+Primitive Data Type 基本資料類型:
+{
+String
+Number
+Float更多 http://0.30000000000000004.com/
+Integer
+Decimal
+Boolean
+JavaScript中只有 undefined 、 null 、 boolean 、 number 、 string 五種Primitive type
+}
+
+# Native Code,在本機上有code,遊戲等幾乎都是這種類型（原生碼）
+>（僅舉例一個）對網路需求較低
+
+# HTML5(HTML),全部都是網頁,Even是網頁的框架都是在網路端。
+>網站介面每次都需要load新的資料的app會用這種架構。
+
+# Hybrid,通常是有本機的架構，保留很多固定框架、按鈕等，但是內容資料是由HTML5匯入等。

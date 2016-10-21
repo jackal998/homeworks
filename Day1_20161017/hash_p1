@@ -1,0 +1,14 @@
+#給定一 Hash，輸出有最大 value 的 key
+
+p1 = {:first=>134,:second=>45,:third=>73,:fourth=>89,:fifth=>42}
+
+vm = 0
+km = 0
+p1.each do |k,v|
+	puts v
+	if v > vm
+		vm = v
+		km = k
+	end
+end
+puts "key:#{km},value:#{vm}"

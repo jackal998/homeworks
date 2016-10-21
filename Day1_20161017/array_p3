@@ -1,0 +1,10 @@
+#建構一陣列有 100 個的元素，內容是 0, 1, 4, 9, 16, 25...... 每個元素是該索引的平方
+elen = gets.to_i
+p3=[]
+for i in 0..elen-1 do
+	p3.push(i*i)
+end
+
+#for ip in 2..20 do
+#	puts p3[ip]
+#end

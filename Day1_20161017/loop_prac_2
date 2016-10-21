@@ -1,0 +1,9 @@
+maxn = gets.to_i
+i0=0
+for i in 0..maxn do
+	i0=0
+	while i0 < i+1
+		puts "#{i}x#{i0}=#{i0*i}"
+		i0 += 1
+	end
+end

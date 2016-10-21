@@ -1,0 +1,20 @@
+# @param {Integer} n
+# @return {Boolean}
+def is_power_of_two(n)
+	isdem =0
+    demar = n.to_s(2).chars
+    puts "#{demar}+end" 
+    for i in 0..demar.length-1
+    	isdem += demar[i].to_i
+    end
+    if isdem == 1
+    	if demar[0] == "-"
+    		#if i.odd?
+    			return false
+    		#end
+    	end
+    	return true
+    else
+    	return false
+    end
+end

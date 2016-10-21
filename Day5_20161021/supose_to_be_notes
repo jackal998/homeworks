@@ -1,0 +1,24 @@
+# Git creation
+
+echo "# AlphaCamp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jackal998/AlphaCamp.git
+git push -u origin master
+
+# command
+git status '檢查commit的狀態'
+git init '將此目錄以及以下設定為有git'
+.git git目錄的根，要取消就從這邊取消。 
+git add 'filename'  => staging
+->git add . =>會加入所有的改動
+
+git commit -m "Title" => 將當前的staging轉成commit
+git diff '顯示變更檔案以及檔案內的更動'
+git checkout 'brenchname' => 切換分支到brenchname
+git branch '"brenchname"' => 創建一個名為brenchname的分支
+
+git merge 'brenchname' => 合併brenchname到當前分支中，以stage狀態儲存
+
+git merge --no-f 'brenchname' => 同上，但是會保留分支狀態。

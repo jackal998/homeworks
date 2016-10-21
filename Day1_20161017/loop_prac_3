@@ -1,0 +1,14 @@
+ifod = gets.to_i
+i=3
+no=0
+while i < ifod
+	if ifod % i == 0 || ifod % 2 == 0
+		puts "#{ifod} 不是質數。"
+		no = 1
+		break
+	end
+	i+=2
+end
+if no == 0 
+	puts "#{ifod} 是質數"
+end

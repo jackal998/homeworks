@@ -1,0 +1,20 @@
+#給定一陣列內含數字，輸出總和、平均、最大值、最小值
+
+p2 = [2314,24,314,153,5346,7,47536,4524,52461]
+
+maxn=p2[0]
+minn=p2[0]
+all = 0
+for i in 0..p2.length-1 do
+	if maxn < p2[i] 
+		maxn = p2[i]
+	end
+	if minn > p2[i]
+		minn = p2[i]
+	end
+	all += p2[i]
+end
+puts all
+puts all/(p2.length-1)
+puts maxn
+puts minn

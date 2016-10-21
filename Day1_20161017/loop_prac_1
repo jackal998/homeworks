@@ -1,0 +1,7 @@
+ic = 2
+ans = 0
+while ic < 101
+	ans += ic
+	ic += 2
+end
+puts ans
