@@ -7,7 +7,8 @@ git commit -m "first commit"
 git remote add origin https://github.com/jackal998/AlphaCamp.git
 git push -u origin master
 
-
+# git push
+即可將以設定好位置之專案push到中。
 
 # command
 git status '檢查commit的狀態'
