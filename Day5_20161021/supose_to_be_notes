@@ -22,3 +22,4 @@ git branch '"brenchname"' => 創建一個名為brenchname的分支
 git merge 'brenchname' => 合併brenchname到當前分支中，以stage狀態儲存
 
 git merge --no-f 'brenchname' => 同上，但是會保留分支狀態。
+
