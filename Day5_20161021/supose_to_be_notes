@@ -7,6 +7,8 @@ git commit -m "first commit"
 git remote add origin https://github.com/jackal998/AlphaCamp.git
 git push -u origin master
 
+
+
 # command
 git status '檢查commit的狀態'
 git init '將此目錄以及以下設定為有git'
