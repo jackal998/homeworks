@@ -1,0 +1,25 @@
+# Html=>CSS=>Javascript
+
+先解構成為html後
+再用css製造出紋路
+最後才用js將功能置入。
+
+# html
+title:分頁的名稱
+
+# id-> #name
+# class-> .name
+
+# CSS
+->只能向後尋找
+
+  子孫
+> 孩子
+~ （兄弟姊妹）之後
++ （兄弟姊妹）下一個
+[] 選擇屬性
+[=""] 選擇屬性以及值
+
+list中選擇特定：
+ls:nth-child(2n) {}
+ls:(first/last)-child
