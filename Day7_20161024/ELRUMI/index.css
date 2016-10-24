@@ -1,0 +1,22 @@
+#HEADER {
+  background-color: lightblue;
+}
+#Logo {
+  position: relative;
+  float: left;
+  left: 10%;
+}
+#HEADER li {
+  display: inline-block;
+}
+#HEADER nav {
+  position: absolute;
+  right: 10%;
+}
+.clearfix {clear: both;}
+
+#slogan {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
