@@ -1,0 +1,44 @@
+#CSS
+
+分隔線：(這個也是空標籤)
+<hr>
+
+img預設為inline
+
+#programming basics Ruby
+arr = [1,2,3,4,5]
+result = arr.map{|x| x+3 }
+result = [4,5,6,7,8]
+
+result = arr.select{|x| x % 2 == 0}
+result = [2,4]
+
+製造物件（有點像是樣板），之後才能使用物件。
+
+class Template 
+	def initialize(name,a)
+		@name = name
+		@na =a
+	end
+end
+
+module N
+	def foo(x)
+	puts x
+end
+end
+
+class Temp
+	include N
+end
+
+myname = Template.new("EJ","a")
+
+my = Temp.new()
+my.foo("HA")
+
+繼承 <
+加入module內的東西
+include N
+
+#名稱的大小寫很重要！！

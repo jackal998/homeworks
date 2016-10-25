@@ -1,0 +1,79 @@
+.clearfix {
+  clear: both;
+}
+a {
+  color: #D5D5D5;
+  text-decoration: none;
+}
+a:hover {
+  color: #333;
+}
+p {
+  color: #99A6B3;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1175px;
+  margin: 0 auto;
+}
+.flowright {
+  float: right;
+}
+#logo {
+  text-align: center;
+  border-bottom: 1px solid #C3D1DA;
+}
+#logo img {
+  margin: 0 auto;
+}
+nav {
+  float: left;
+}
+nav a, .tools a{
+  line-height: 70px;
+  
+}
+nav ul {
+  margin: 0;
+  margin-left: -10px;
+  padding-left: 0;
+  list-style-type: none;
+}
+nav li {
+  /*也可以用float達到一樣的效果，但是inline會有空白，表示為不同字*/
+  /*display: inline;*/
+  float: left;
+  padding: 0 15px;
+}
+nav li:after {
+  content: ':';
+}
+nav li:last-child:after {
+  content: '';
+}
+nav a {
+  padding: 10px 10px;
+}
+.tools {
+  float: right;
+}
+
+/*^HEADER*/
+
+.intro {
+  background-image: url(http://placehold.it/2000x700/222222/000000);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+.intro .content {
+  float: left;
+}
+
+/*grid*/
+.col-6 {
+  width: 50%;
+}
