@@ -16,5 +16,6 @@ class Temp
 end
 
 myname = Template.new("EJ","a")
+
 my = Temp.new()
 my.foo("HA")
