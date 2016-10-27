@@ -1,0 +1,15 @@
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.container p {
+	float: left;
+	width: 33.3333333%;
+	/*margin-right: 2%;*/
+}
+@media (max-width: 1000px) {
+	.container p {
+		float: none;
+		width: 100%;
+	}
+}

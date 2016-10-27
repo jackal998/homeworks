@@ -1,0 +1,96 @@
+.container {
+  width: 1175px;
+  margin: 0 auto;
+  text-align: center;
+}
+#HEADER {
+  background-image: url(http://placehold.it/3840x500/97FEF5/97FEF5);
+  background-size: cover;
+  height: 250px;
+}
+#FOOTAR {
+  line-height: 2;
+  background-image: url(http://placehold.it/3840x300/FFD96E);
+  height: 170px;
+}
+#Logo {
+  position: relative;
+  float: left;
+  left: 10%;
+}
+.pad{
+  padding: 30px;
+}
+.cover {
+  /*透明*/
+  opacity: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  margin: 0 auto;
+  height: 100%;
+  width: 300px;
+  /*width: 100%;*/
+  top: 0;
+  padding: 30px;
+  background-color: rgba(0,0,0,.3);
+}
+/*display: none;
+.somebody:hover .cover{
+  display: block;
+}*/
+.cover:hover {
+  opacity: 1;
+}
+.col-4 {
+  position: relative;
+  text-align: center;
+  /*  background-position: 50% 50%;
+  background-repeat: no-repeat;*/
+  /*background-image: url(http://placehold.it/300x190/#F1E8E3);*/
+  /*height: 330px;*/
+  width: 32%;
+}
+.col-4 img {
+  margin: 0 auto;
+  display: block;
+}
+li {
+  display: inline-block;
+}
+nav li:after{
+  content:"．";
+}
+nav li:last-child:after{
+  content:"";
+}
+#Loadmore img {
+  height: 20px;
+}
+#HEADER nav {
+  position: absolute;
+  right: 10%;
+}
+.clearfix {clear: both;}
+
+.pdlist img {
+  height: 155px;
+}
+#slogan {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2;
+}
+.contianer a {
+  text-decoration: none;
+  color: #000;
+}
+.space1 {
+  background-image: url(http://placehold.it/3840x50/FFFFFF/FFFFFF);
+  height: 40px;
+}
+hr {
+  width: 30px;
+}

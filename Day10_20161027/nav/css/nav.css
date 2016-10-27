@@ -1,0 +1,57 @@
+img {
+	width: 100%;
+	height: auto;
+}
+ul {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1024px;
+}
+#logo {
+	float: left;
+}
+nav {
+	position: fixed;
+	right: 15%;
+}
+nav li {
+	float: left;
+}
+nav a {
+	padding: 0 12px;
+}
+#menu-tri {
+	display: none;
+	top: 2%;
+	right: 2%;
+
+	position: fixed;
+	width: 52px;
+}
+@media (max-width: 320px ){
+	#menu-tri {
+		display: block;
+	}
+	nav {
+		display: none;
+	}
+	nav.open {
+		display: block;
+		float: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		background-color: #ccc;
+		text-align: center;
+		padding-top: 50%;
+	}
+	nav li {
+		float: none;
+	}
+}
