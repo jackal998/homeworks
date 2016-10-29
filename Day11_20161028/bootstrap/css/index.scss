@@ -1,0 +1,28 @@
+ul {
+	margin: 0;
+}
+.nav-bar {
+	border-top: 1px solid #E8ECF0 ;
+	line-height: 70px;
+}
+.banner {
+	padding: 100px;
+	background-image: url(http://placehold.it/2000x700/333333/333333);
+	background-position: 50% 50%;
+	background-size: cover;
+	h1 {
+		color: #FFF;
+	}
+	p {
+		color: #96A8B3;
+	}
+	.btn {
+		border: 1px solid white;
+		color: #FFF;
+		letter-spacing: .1rem;
+	}
+	.btn:hover {
+		border: 1px solid #00C39F;
+		background-color: #00C39F;
+	}
+}
