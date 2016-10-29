@@ -140,7 +140,7 @@ img {
 	// padding-top: .3rem;
 	.btn:hover {
 		color: #83FDF2;
-		background-color: rgba(225,225,225,.1);
+		background-color: rgba(225,225,225,0);
 	}
 	img {
 		width: 20px;
@@ -180,9 +180,15 @@ img {
 }
 @media (max-width: 1199px) {
 	.pdfilter {
+				li {
+				padding-left: 0;
+				padding-right: 0;
 		a {
-			font-size: 1rem;
-		}
+			font-size: 1.5rem;
+			letter-spacing: 0;
+		}			
+	}
+
 	}
 	.pdgraph {
 		.cover {
@@ -202,6 +208,18 @@ img {
 	}
 }
 @media (max-width: 992px) {
+	.pdfilter {
+		li {
+			margin-left: -3px;
+			margin-right: -3px;
+			padding-left: 0;
+			padding-right: 0;
+			letter-spacing: 0;
+			a {
+				font-size: 1.5rem;
+			}
+		}
+	}
 	.pdgraph {
 		.cover {
 			margin: 9% 7% ;
@@ -305,7 +323,9 @@ img {
 		li {
 			padding: 0;
 			a{
-				letter-spacing: 0;			}
+				font-size: .5rem;
+				letter-spacing: 0;			
+			}
 		}
 	}
 	.pdgraph {
